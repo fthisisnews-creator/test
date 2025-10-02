@@ -1,0 +1,8 @@
+[tls-version] [ssl] [info] rwbaird.com:443 ["tls12"]
+[tls-version] [ssl] [info] rwbaird.com:443 ["tls13"]
+[nameserver-fingerprint] [dns] [info] rwbaird.com ["edns4.ultradns.net.","edns4.ultradns.com.","edns4.ultradns.org.","edns4.ultradns.biz."]
+[dmarc-detect] [dns] [info] _dmarc.rwbaird.com [""v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com""]
+[mx-fingerprint] [dns] [info] rwbaird.com ["10 mxa-001c2301.gslb.pphosted.com.","10 mxb-001c2301.gslb.pphosted.com."]
+[caa-fingerprint] [dns] [info] rwbaird.com
+[ssl-issuer] [ssl] [info] rwbaird.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] rwbaird.com:443 ["rwbaird.com"]
